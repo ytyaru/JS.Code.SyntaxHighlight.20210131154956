@@ -1,6 +1,5 @@
 class CodeTag {
     static parse() {
-        console.log('CodeTag.parse()');
         const CLASS_COPY_BUTTON = 'code-copy-btn';
         const codes = document.querySelectorAll('code[src]');
         codes.forEach((code, index) => {
